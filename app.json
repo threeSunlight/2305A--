@@ -2,39 +2,15 @@
   "pages": [
     "pages/index/index",
     "pages/category/category",
-    "pages/start/start",
-    "pages/goods-details/index",
     "pages/shop-cart/index",
     "pages/to-pay-order/index",
-    "pages/wuliu/index",
-    "pages/my/index",
-    "pages/notice/show",
-    "pages/recharge/index",
-    "pages/withdraw/index",
-    "pages/kanjia/index",
-    "pages/authorize/index",
-    "pages/score-excharge/index",
-    "pages/asset/index",
-    "pages/score/index",
-    "pages/sign/index",
-    "pages/maidan/index",
-    "pages/coupons/index"
-  ],
-  "subPackages": [
-    {
-      "root": "pagesA",
-      "pages": [
-     
-        "pages/authorize"
-       
-      ]
-    }
+    "pages/my/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
+    "navigationBarTitleText": "未来好面",
     "backgroundColor": "#f6f0e3",
     "navigationBarBackgroundColor": "#f6f0e3",
-    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black",
     "onReachBottomDistance": 50,
     "navigationStyle": "default",
@@ -72,5 +48,8 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index"
+  }
 }

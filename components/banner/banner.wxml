@@ -1,0 +1,8 @@
+<!--轮播图-->
+<view>
+   <swiper circular indicator-dots>
+      <swiper-item>
+         <image src="/images/fxad.jpeg" mode="" />
+      </swiper-item>
+   </swiper>
+</view>

@@ -1,0 +1,14 @@
+{
+  "name": "brintmian",
+  "version": "1.0.0",
+  "description": "## 推荐一个极好的餐饮点餐外卖的开源小程序",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.11.4"
+  }
+}
